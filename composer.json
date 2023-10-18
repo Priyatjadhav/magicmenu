@@ -1,0 +1,26 @@
+{
+  "name": "magiccart/module-magicmenu",
+  "description": "Make megamenu, dropdown menu, mobile menu easy all in one.",
+  "require": {
+    "magepow/core": "^1.0.3"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Priyanka",
+      "email": "priyanka.b.jadhav@capgemini.com",
+      "homepage": "https://www.capgemini.com/",
+      "role": "Technical Support Guide"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Magiccart\\Magicmenu\\": ""
+    }
+  }
+}
